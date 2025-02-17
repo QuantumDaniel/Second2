@@ -1,0 +1,111 @@
+
+body{
+  margin:0;
+  background-color: antiquewhite;
+}
+.header{
+  background-color:green;
+  height:100px;
+  margin-top:0;
+  align-content:center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+
+}
+.h1{
+  outline-color: yellow;
+  outline-width:10px;
+}
+.back-to-home{
+  background-color:red;
+  text-decoration: none;
+}
+.log-in-details{
+  display:inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  
+}
+.log-in-message{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:xx-large;
+  background-color: blue;
+  
+  
+}
+.username{
+  margin-left:50px;
+  width:450px;
+  height:25px;
+  border-width: 3px;
+  border-color:green ;
+
+}
+
+.password{
+  width:400px;
+  height:25px;
+  border-style:solid;
+  border-width: 3px;
+  border-color:green;
+  margin-top:10px;
+  border-right:none;
+  
+}
+.show{
+  position:absolute;
+  background-color: white;
+  width:50px;
+  height:32px;
+  border-style:solid;
+  border-width: 3px;
+  border-color:green;
+  margin-right:10px;
+  margin-top:10px;
+  border-left: none;
+cursor:pointer;
+
+}
+.password-image{
+  width:25px;
+}
+.submit{
+  background-color:green;
+  color:white;
+  width:90px;
+  border-radius:50px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:italic;
+  cursor:pointer;
+
+}
+.log-in-question{
+  display:inline-block;
+  background-color:green;
+  color:white;
+  font-size:medium;
+  padding:3px;
+  margin-top:5px;
+}
+.sign-up-click{
+  text-decoration:none;
+  font-style:italic;
+  cursor:pointer;
+
+}
+
+.sign-up-click:hover{
+  background-color:white;
+}
+.log-in-container{
+  min-width: 800px;
+  background-color:red;
+  align-content: center;
+  text-align: center;
+  margin: 10px 200px;
+  padding:10px;
+overflow:hidden;
+}

@@ -1,0 +1,108 @@
+body{
+  margin:0;
+  background-image:url('Image/2fecb8d777db651b147962cc13e1e49f.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  
+}
+.head{
+  position:fixed;
+  background-color:salmon;
+  border-style:double;
+  left:0;
+  right:0;
+  top:0;
+  text-align:center;
+  font-size: xx-large;
+  align-content: center;
+  align-self:center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  z-index:100;
+}
+.sign-up-main{
+  margin:169px 400px;
+  position:relative;
+  
+  height:500px;
+  width:400px;
+  background-color:rgb(112, 112, 230);
+  padding:10px;
+  flex:1;
+  text-wrap: none;
+  border:solid;
+
+  
+  
+}
+.sign-up-main:hover{
+  size:50px;
+}
+
+.submit-details{
+  display:inline-block;
+}
+
+input{
+  margin-top:20px;
+  height:30px;
+  width:200px;
+}
+.sign-up-button{
+  padding:5px;
+  cursor:pointer;
+  border-radius:5px;
+  margin-left:276px;
+}
+a{
+  color:yellow;
+}
+.information{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top:10px;
+  font-size:x-large;
+}
+.sure-name{
+  
+  
+
+}
+.first-name{
+
+}
+.user-name{
+  margin-left:5px;
+
+}
+.password1{
+  margin-left:15px;
+
+}
+.password2{
+  margin-left:27px;
+}
+.password-strength{
+  font-family:'Times New Roman', Times, serif;
+}
+
+.check-test{
+  font-weight:bold;
+}
+
+.error-message{
+  color:red;
+  font-size:12px;
+  background-color: white;
+  border-radius:30px;
+  padding:2px;
+  position:absolute;
+  margin-top:-15px;
+  width:390px;
+  font-style: italic;
+  text-align:center;
+}
+.required{
+  color:red;
+  font-size:18px;
+  
+}
